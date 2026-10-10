@@ -1,0 +1,51 @@
+{
+  "name": "sango-nlp",
+  "version": "0.1.1",
+  "description": "NLP toolkit for Sango, the national language of the Central African Republic: tokenizer, stemmer, language detection, diacritic normalisation",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\"",
+    "prepublishOnly": "npm run clean && npm run build"
+  },
+  "keywords": [
+    "sango",
+    "nlp",
+    "natural-language-processing",
+    "tokenizer",
+    "stemmer",
+    "language-detection",
+    "central-african-republic",
+    "african-languages",
+    "linguistics"
+  ],
+  "author": "MEYNG <contact@meyng.com> (https://meyng.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meyng-hub/sango-nlp.git"
+  },
+  "homepage": "https://github.com/meyng-hub/sango-nlp#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  },
+  "bugs": {
+    "url": "https://github.com/meyng-hub/sango-nlp/issues"
+  }
+}
