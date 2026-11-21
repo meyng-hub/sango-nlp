@@ -1,7 +1,7 @@
 {
   "name": "sango-nlp",
   "version": "0.1.1",
-  "description": "NLP toolkit for Sango, the national language of the Central African Republic: tokenizer, stemmer, language detection, diacritic normalisation",
+  "description": "NLP toolkit for Sango, co-official language of the Central African Republic: tokenizer, stemmer, language detection, diacritic normalisation",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

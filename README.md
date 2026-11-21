@@ -1,8 +1,8 @@
 # sango-nlp
 
-An NLP toolkit for **Sango** (ISO 639-1: `sg`, ISO 639-3: `sag`), the national language of the Central African Republic and, with French, one of its two official languages.
+An NLP toolkit for **Sango** (ISO 639-1: `sg`, ISO 639-3: `sag`), the co-official language of the Central African Republic (with French).
 
-Built by [MEYNG](https://meyng.com) as part of the [SangoAI](https://sangoai.app) platform. MIT-licensed. Source: <https://github.com/meyng-hub/sango-nlp>.
+Built by [MEYNG](https://meyng.com) as part of the [SangoAI](https://sangoai.app) platform, which translates between Sango, French and English. MIT-licensed. Source: <https://github.com/meyng-hub/sango-nlp>.
 
 ## Features
 
